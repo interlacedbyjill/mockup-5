@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interlaced by Jill</title>
+  <meta name="description" content="Hand beaded tops, bracelets, necklaces & flowers — handcrafted in koronadal.">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-left"></div>
+    <div class="nav-logo">Interlaced <span>by Jill</span></div>
+    <div class="nav-right">
+      <a href="#gallery-section" class="nav-gallery">✦ gallery</a>
+    </div>
+  </nav>
+
+  <div class="ticker">
+    <span class="ticker-inner">
+      ✦ limited pieces — pre-order yours &nbsp;&nbsp; ✦ no two pieces the same &nbsp;&nbsp; ✦ hand beaded in koronadal &nbsp;&nbsp; ✦ accepting pre-orders &nbsp;&nbsp; ✦ limited pieces — pre-order yours &nbsp;&nbsp; ✦ no two pieces the same &nbsp;&nbsp; ✦ hand beaded in koronadal &nbsp;&nbsp; ✦ accepting pre-orders &nbsp;&nbsp;
+    </span>
+  </div>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">every piece,<br>a <em>different</em> story.</h1>
+      <p class="hero-slogan">"some things are meant to be interlaced"</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="document.getElementById('shop-section').scrollIntoView({behavior:'smooth'})">shop now</button>
+        <button class="btn-outline" onclick="document.getElementById('customs-section').scrollIntoView({behavior:'smooth'})">customs</button>
+        <button class="btn-outline" onclick="document.getElementById('contact-section').scrollIntoView({behavior:'smooth'})">contact</button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <div class="hero-img-inner">
+        <span class="hero-img-label">interlaced by jill</span>
+        <span class="hero-img-est">est. 2026 · koronadal, ph</span>
+        <span class="hero-img-tag">hand beaded · one of a kind</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="about-strip">
+    <p class="about-eyebrow">our story</p>
+    <p class="about-text">two friends, one thread — making things that <strong>connect</strong> the maker to the wearer.</p>
+  </div>
+
+  <div class="thread-line"></div>
+
+  <section class="shop-section" id="shop-section">
+    <div class="shop-header">
+      <div>
+        <p class="hero-eyebrow">✦ current stock</p>
+        <h2 class="shop-title">each piece is <em>one of a kind</em></h2>
+      </div>
+      <div class="shop-header-right">
+        <div class="shop-filters">
+          <button class="nav-filter active" data-status="available">available</button>
+          <button class="nav-filter" data-status="all">all</button>
+          <button class="nav-filter" data-status="sold">sold</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-tabs">
+      <button class="tab active" data-cat="all">everything</button>
+      <button class="tab" data-cat="tops">wearables</button>
+      <button class="tab" data-cat="necklaces">layers</button>
+      <button class="tab" data-cat="bracelets">wrists</button>
+      <button class="tab" data-cat="bouquets">blooms</button>
+    </div>
+
+    <div class="shop-grid" id="product-grid">
+
+      <!-- TOPS -->
+      <div class="product-card" data-cat="tops" data-status="available" data-stock="1" data-name="Rosette Top" data-price="₱ 850" data-sub="beaded top · one size" data-desc="A handmade beaded top covered in delicate rose-toned beads. Each placement is done by hand so no two are ever exactly alike. One size — stretch fabric, best fits XS to M." data-emoji="👕" data-color="rose" data-img="images/wearables/wearables-1.jpg">
+        <div class="product-img rose"><div class="avail-badge"></div><img src="images/wearables/wearables-1.jpg" alt="Rosette Top" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Rosette Top</p>
+          <p class="product-sub">wearable · one size (XS–M)</p>
+          <div class="product-bottom"><p class="product-price">₱ 850</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="tops" data-status="available" data-stock="1" data-name="Mauve Drop" data-price="₱ 850" data-sub="beaded top · one size" data-desc="A hand beaded top in deep mauve tones. Every bead is placed by hand making each piece completely one of a kind. One size — stretch fabric, best fits XS to M." data-emoji="👕" data-color="mauve" data-img="images/wearables/wearables-2.jpg">
+        <div class="product-img mauve"><div class="avail-badge"></div><img src="images/wearables/wearables-2.jpg" alt="Mauve Drop" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Mauve Drop</p>
+          <p class="product-sub">wearable · one size (XS–M)</p>
+          <div class="product-bottom"><p class="product-price">₱ 850</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="tops" data-status="available" data-stock="1" data-name="Cream Dew" data-price="₱ 850" data-sub="beaded top · one size" data-desc="A soft cream-toned beaded top with warm ivory details. Each bead is placed by hand — no two pieces are ever the same. One size — stretch fabric, best fits XS to M." data-emoji="👕" data-color="ivory" data-img="images/wearables/wearables-3.jpg">
+        <div class="product-img ivory"><div class="avail-badge"></div><img src="images/wearables/wearables-3.jpg" alt="Cream Dew" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Cream Dew</p>
+          <p class="product-sub">wearable · one size (XS–M)</p>
+          <div class="product-bottom"><p class="product-price">₱ 850</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <!-- NECKLACES -->
+      <div class="product-card" data-cat="necklaces" data-status="available" data-stock="2" data-name="Pearl Thread" data-price="₱ 380" data-sub="beaded necklace" data-desc="A delicate handmade necklace strung with pearl-toned beads. Adjustable length, layerable, and completely unique — each one is strung slightly differently." data-emoji="📿" data-color="pearl" data-img="images/layers/layer-1.jpg">
+        <div class="product-img pearl"><div class="avail-badge"></div><img src="images/layers/layer-1.jpg" alt="Pearl Thread" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Pearl Thread</p>
+          <p class="product-sub">string · adjustable</p>
+          <div class="product-bottom"><p class="product-price">₱ 380</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="necklaces" data-status="available" data-stock="1" data-name="Garnet Strand" data-price="₱ 380" data-sub="beaded necklace" data-desc="A rich garnet-toned beaded necklace. Deep red beads hand-strung into a layerable piece. Great on its own or stacked. Adjustable length." data-emoji="📿" data-color="garnet" data-img="images/layers/layer-2.jpg">
+        <div class="product-img garnet"><div class="last-badge">last one</div><img src="images/layers/layer-2.jpg" alt="Garnet Strand" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Garnet Strand</p>
+          <p class="product-sub">string · adjustable</p>
+          <div class="product-bottom"><p class="product-price">₱ 380</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <!-- BRACELETS -->
+      <div class="product-card" data-cat="bracelets" data-status="available" data-stock="3" data-name="Blush Bracelet" data-price="₱ 250" data-sub="beaded bracelet" data-desc="A dainty handmade bracelet strung with blush-toned beads. Fits most wrist sizes. Each one is strung slightly differently so yours will be unique." data-emoji="📿" data-color="blush" data-img="images/wrists/wrist-1.jpg">
+        <div class="product-img blush"><div class="avail-badge"></div><img src="images/wrists/wrist-1.jpg" alt="Blush Bracelet" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Blush Bracelet</p>
+          <p class="product-sub">wrist · fits most</p>
+          <div class="product-bottom"><p class="product-price">₱ 250</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="bracelets" data-status="available" data-stock="2" data-name="Sage Wrap" data-price="₱ 250" data-sub="beaded bracelet" data-desc="A handmade bracelet in muted sage green tones. Each bead is individually placed — stackable and adjustable to most wrist sizes." data-emoji="📿" data-color="sage" data-img="images/wrists/wrist-2.jpg">
+        <div class="product-img sage"><div class="avail-badge"></div><img src="images/wrists/wrist-2.jpg" alt="Sage Wrap" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Sage Wrap</p>
+          <p class="product-sub">wrist · fits most</p>
+          <div class="product-bottom"><p class="product-price">₱ 250</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card sold" data-cat="bracelets" data-status="sold" data-name="Blue Tide" data-price="₱ 250" data-sub="beaded bracelet" data-desc="This one found its home. A blue-toned beaded bracelet — gone forever since no two pieces are ever remade." data-emoji="📿" data-color="blue" data-img="images/wrists/wrist-3.jpg">
+        <div class="product-img blue"><div class="sold-tag"><span>sold out</span></div><img src="images/wrists/wrist-3.jpg" alt="Blue Tide" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Blue Tide</p>
+          <p class="product-sub">wrist · fits most</p>
+          <div class="product-bottom"><p class="product-price">₱ 250</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <!-- BOUQUETS -->
+      <div class="product-card" data-cat="bouquets" data-status="available" data-stock="1" data-name="Sage Bouquet" data-price="₱ 650" data-sub="beaded flowers" data-desc="A handcrafted bouquet made entirely of beaded flowers in sage green tones. Perfect as a gift — it never wilts. Last one available." data-emoji="🌸" data-color="sage" data-img="images/blooms/bloom-1.jpg">
+        <div class="product-img sage"><div class="last-badge">last one</div><img src="images/blooms/bloom-1.jpg" alt="Sage Bouquet" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Sage Bouquet</p>
+          <p class="product-sub">bloom · beaded flowers</p>
+          <div class="product-bottom"><p class="product-price">₱ 650</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-cat="bouquets" data-status="available" data-stock="2" data-name="Dusty Rose Bloom" data-price="₱ 650" data-sub="beaded flowers" data-desc="A handcrafted arrangement of dusty rose beaded flowers. Each petal is shaped by hand — it keeps its beauty forever. A perfect gift." data-emoji="🌸" data-color="rose" data-img="images/blooms/bloom-2.jpg">
+        <div class="product-img rose"><div class="avail-badge"></div><img src="images/blooms/bloom-2.jpg" alt="Dusty Rose Bloom" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Dusty Rose Bloom</p>
+          <p class="product-sub">bloom · beaded flowers</p>
+          <div class="product-bottom"><p class="product-price">₱ 650</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+      <div class="product-card sold" data-cat="bouquets" data-status="sold" data-name="Butter Bloom" data-price="₱ 650" data-sub="beaded flowers" data-desc="This bouquet has found its home. A warm butter-yellow beaded arrangement — gone forever since no two are ever remade." data-emoji="🌸" data-color="butter" data-img="images/blooms/bloom-3.jpg">
+        <div class="product-img butter"><div class="sold-tag"><span>sold out</span></div><img src="images/blooms/bloom-3.jpg" alt="Butter Bloom" class="product-photo"></div>
+        <div class="product-info">
+          <p class="product-name">Butter Bloom</p>
+          <p class="product-sub">bloom · beaded flowers</p>
+          <div class="product-bottom"><p class="product-price">₱ 650</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+
+    
+      <div class="product-card coming-soon" data-coming="true" data-cat="tops" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="wearable" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="blush" data-img="images/wearables/wearables-4.jpg">
+        <div class="product-img blush">
+          <div class="coming-badge">soon</div>
+          <img src="images/wearables/wearables-4.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">wearable · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="tops" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="wearable" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="sage" data-img="images/wearables/wearables-5.jpg">
+        <div class="product-img sage">
+          <div class="coming-badge">soon</div>
+          <img src="images/wearables/wearables-5.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">wearable · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="necklaces" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="string" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="ivory" data-img="images/layers/layer-3.jpg">
+        <div class="product-img ivory">
+          <div class="coming-badge">soon</div>
+          <img src="images/layers/layer-3.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">string · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="necklaces" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="string" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="mauve" data-img="images/layers/layer-4.jpg">
+        <div class="product-img mauve">
+          <div class="coming-badge">soon</div>
+          <img src="images/layers/layer-4.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">string · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="necklaces" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="string" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="blush" data-img="images/layers/layer-5.jpg">
+        <div class="product-img blush">
+          <div class="coming-badge">soon</div>
+          <img src="images/layers/layer-5.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">string · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="bracelets" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="wrist" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="rose" data-img="images/wrists/wrist-4.jpg">
+        <div class="product-img rose">
+          <div class="coming-badge">soon</div>
+          <img src="images/wrists/wrist-4.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">wrist · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="bracelets" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="wrist" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="mauve" data-img="images/wrists/wrist-5.jpg">
+        <div class="product-img mauve">
+          <div class="coming-badge">soon</div>
+          <img src="images/wrists/wrist-5.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">wrist · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="bouquets" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="bloom" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="mauve" data-img="images/blooms/bloom-4.jpg">
+        <div class="product-img mauve">
+          <div class="coming-badge">soon</div>
+          <img src="images/blooms/bloom-4.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">bloom · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+      <div class="product-card coming-soon" data-coming="true" data-cat="bouquets" data-status="available" data-stock="0" data-name="Coming Soon" data-price="—" data-sub="bloom" data-desc="This piece is on its way. Check back soon or send us a message if you'd like to be notified." data-emoji="🪡" data-color="ivory" data-img="images/blooms/bloom-5.jpg">
+        <div class="product-img ivory">
+          <div class="coming-badge">soon</div>
+          <img src="images/blooms/bloom-5.jpg" alt="Coming Soon" class="product-photo" onerror="this.style.display='none'">
+        </div>
+        <div class="product-info">
+          <p class="product-name">Coming Soon</p>
+          <p class="product-sub">bloom · stay tuned</p>
+          <div class="product-bottom"><p class="product-price">—</p><button class="view-btn">view</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="show-more-wrap" id="show-more-wrap">
+      <button class="show-more-btn" id="show-more-btn">see all pieces ↓</button>
+    </div>
+    <p class="sold-note" id="sold-note">sold out for now — if enough people want it back, we just might 🤍</p>
+    <p class="sold-note" id="empty-note" style="display:none;">nothing here right now — check back soon 🤍</p>
+  </section>
+
+  <!-- CUSTOMS / PRE-ORDERS SECTION -->
+  <section class="customs-section" id="customs-section">
+    <div class="customs-inner">
+      <div class="customs-left">
+        <p class="customs-label">✦ want something specific?</p>
+        <h2 class="customs-title">accepting <em>pre-orders</em></h2>
+        <p class="customs-desc">have a color, size, or style in mind? each piece is made with the same care as our one-of-a-kinds.</p>
+        <div class="customs-features">
+          <div class="customs-feat"><span class="feat-icon">🎨</span><div><strong>any color palette</strong><p>tell us your vision</p></div></div>
+          <div class="customs-feat"><span class="feat-icon">🪡</span><div><strong>made by hand</strong><p>each piece beaded individually</p></div></div>
+          <div class="customs-feat"><span class="feat-icon">📦</span><div><strong>2–3 weeks turnaround</strong><p>worth the wait</p></div></div>
+        </div>
+        <button class="customs-btn" id="customs-btn">start a pre-order →</button>
+      </div>
+      <div class="customs-right">
+        <div class="customs-deco">
+          <div class="deco-pill">tops</div>
+          <div class="deco-pill highlight">necklaces</div>
+          <div class="deco-pill">bracelets</div>
+          <div class="deco-pill highlight">bouquets</div>
+          <div class="deco-pill">layers</div>
+          <div class="deco-pill">custom size</div>
+          <div class="deco-pill highlight">any color</div>
+          <div class="deco-pill">gift wrapping</div>
+        </div>
+        <p class="customs-deco-label">everything is possible</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="thread-line"></div>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery-section" id="gallery-section">
+    <div class="gallery-header">
+      <p class="hero-eyebrow">✦ as seen on you</p>
+      <h2 class="gallery-title">worn by real people,<br><em>made for real moments</em></h2>
+      <p class="gallery-sub">tag us to be featured here 🤍 <span class="gallery-handles"><strong>@lianjj.chiu</strong> · <strong>@interlacedbyjill</strong></span></p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-card g1">
+        <div class="gallery-overlay"><span>@interlaced.wearer</span></div>
+      </div>
+      <div class="gallery-card g2">
+        <div class="gallery-overlay"><span>@beadlover.ph</span></div>
+      </div>
+      <div class="gallery-card g3">
+        <div class="gallery-overlay"><span>@jillsmuse</span></div>
+      </div>
+      <div class="gallery-card g4">
+        <div class="gallery-overlay"><span>@koronadalgirl.fits</span></div>
+      </div>
+      <div class="gallery-card g5">
+        <div class="gallery-overlay"><span>@stringsandstuff</span></div>
+      </div>
+      <div class="gallery-card g6">
+        <div class="gallery-overlay"><span>@tag to appear here</span></div>
+      </div>
+    </div>
+    <p class="gallery-note">photos will be updated as customers share theirs 🌸</p>
+  </section>
+
+  <audio autoplay loop preload="auto">
+    <source src="bgm.mp3" type="audio/mp3">
+  </audio>  
+
+  <div class="thread-line"></div>
+
+  <!-- CONTACT / FEEDBACK SECTION -->
+  <section class="contact-section" id="contact-section">
+    <div class="contact-card">
+      <p class="contact-eyebrow">✦ for the community</p>
+      <p class="contact-title">share your thoughts</p>
+      <p class="contact-subtitle">this is your space to send us suggestions, feedback, or ideas on how we can do better. for orders, use the pre-order form on any item 🤍</p>
+      <div class="contact-field"><label>name</label><input type="text" id="c-name" placeholder="your name"/></div>
+      <div class="contact-field"><label>email</label><input type="email" id="c-email" placeholder="your email address"/></div>
+      <div class="contact-field"><label>your thoughts</label><textarea id="c-msg" placeholder="suggestions, feedback, ideas — we read everything!"></textarea></div>
+      <div class="contact-field">
+        <label>attach a photo <span class="label-opt">(optional)</span></label>
+        <div class="file-upload-wrap">
+          <input type="file" id="c-photo" accept="image/*" />
+          <label for="c-photo" class="file-upload-label">
+            <span class="file-icon">📎</span>
+            <span class="file-text" id="c-file-text">share a picture with us</span>
+          </label>
+        </div>
+      </div>
+      <button class="contact-submit" id="contact-submit">send feedback</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span class="footer-logo">Interlaced</span>
+    <span class="footer-sub">by Jill · est. 2026</span>
+    <p class="footer-slogan">some things are meant to be interlaced</p>
+    <div class="footer-links">
+      <a href="https://instagram.com/lianjj.chiu" target="_blank">instagram</a>
+      <a href="https://facebook.com/interlacedbyjill" target="_blank">facebook</a>
+    </div>
+    <p class="footer-copy">© 2026 interlaced by jill · koronadal, ph</p>
+  </footer>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-img" id="modal-img"><img id="modal-photo" class="modal-photo" src="" alt="" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;"></div>
+      <div class="modal-body">
+        <div id="modal-badges"></div>
+        <p class="modal-name" id="modal-name"></p>
+        <p class="modal-sub" id="modal-sub"></p>
+        <p class="modal-desc" id="modal-desc"></p>
+        <p class="modal-price" id="modal-price"></p>
+        <button class="modal-action" id="modal-action"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+  <script src="storage.js"></script>
+</body>
+</html>
