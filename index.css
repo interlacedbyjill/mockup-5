@@ -649,3 +649,12 @@ nav {
   padding: 11px 28px; border-radius: 2px; cursor: pointer;
 }
 .show-more-btn:hover { background: var(--sand); }
+
+.story-text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.8;
+  text-transform: none;
+}
